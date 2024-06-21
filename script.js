@@ -18,7 +18,7 @@ let currentSong = new Audio();
 //Building a Function to get all the Songs List
 async function getSongs() {
 
-    let a = await fetch("http://127.0.0.1:3000/songs/")
+    let a = await fetch("http://127.0.0.1:3002/songs/")
     let response = await a.text();
     let div = document.createElement("div")
     div.innerHTML = response;
