@@ -1,0 +1,50 @@
+.border{
+    border: 2px solid rgb(209, 0, 0);
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-contant{
+    justify-content: center;
+
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-gray{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 8px 5px;
+}
+.p-1{
+    padding: 20px;
+}
+.header img{
+    width: 25px;
+    filter: invert(1);
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 700;
+    padding-top: 5px;
+    font-size: 12px; 
+}
+.m-2{
+    margin: 12px 0px;
+}
